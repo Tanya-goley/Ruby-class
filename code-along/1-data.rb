@@ -38,3 +38,34 @@ puts food*quantity
 # Combine strings and variables
 
 # String manipulation
+
+#math practice
+puts 3 + 3
+puts 3+3
+puts 3*3
+puts 3/3
+puts 3**3
+puts 9%3
+puts 2+5*5
+
+#text strings
+puts ("Hello" + "fun!" +3.to_s) *3
+
+#varibales
+x = 2
+yall = "hello"
+puts x
+puts yall
+puts yall*x
+
+#combine string and variables
+first_name = "Mando"
+greeting1 = "Hello, #{first_name}"
+greeting2 = "Bye, #{first_name}"
+
+puts greeting1 + " " + greeting2
+
+#strings
+puts "hello".length
+puts "how are u today?".capitalize
+puts greeting1.swapcase
